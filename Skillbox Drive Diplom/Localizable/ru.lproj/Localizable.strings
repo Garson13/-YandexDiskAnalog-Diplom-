@@ -1,0 +1,29 @@
+/* 
+  Localizable.strings
+  Skillbox Drive Diplom
+
+  Created by Гарик on 13.11.2022.
+  
+*/
+"Yes" = "Да";
+"No" = "Нет";
+"mb" = "мб";
+"gb" = "гб";
+"gb - used" = "гб - занято";
+"gb - free" = "гб - свободно";
+"Failed to get data." = "Не удалось получить данные.";
+"Published files" = "Опубликованные файлы";
+"Error" = "Ошибка";
+"No internet connection. Displaying files on last boot from your drive." = "Нет подключения к интернету. Отображаем файлы при последней загрузке из Вашего диска.";
+"OK" = "Хорошо";
+"Directory contains no files" = "Директория не содержит файлов";
+"Log out" = "Выход";
+"Are you sure you want to sign out? All local data will be deleted" = "Вы уверены, что хотите выйти? Все локальные данные будут удалены";
+"No internet connection. Please connect to view and download the file." = "Нет подключения к интернету. Подключитесь, чтоб просмтотреть и скачать файл.";
+"Apply" = "Применить";
+"Rename" = "Переименовать";
+"Cancel" = "Отмена";
+"Enter file name" = "Введите название файла";
+"The Internet connection appears to be offline." = "Вероятно, соединение с интернетом прервано.";
+
+

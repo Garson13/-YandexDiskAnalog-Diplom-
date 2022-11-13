@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yKU-RA-z3l">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="85z-Xo-vT0">
+            <objects>
+                <viewController id="yKU-RA-z3l" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SPM-bR-YCW">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="2Ee-hC-MaA">
+                                <rect key="frame" x="119.00000000000001" y="387.66666666666669" width="192.33333333333337" height="157.00000000000006"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IconSD" translatesAutoresizingMaskIntoConstraints="NO" id="FYm-8b-Nbd">
+                                        <rect key="frame" x="0.0" y="0.0" width="192" height="114"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" usesAttributedText="YES" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N9d-u4-GRl">
+                                        <rect key="frame" x="0.0" y="134" width="192" height="23"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Skillbox ">
+                                                <attributes>
+                                                    <font key="NSFont" size="30" name="Arial-BoldMT"/>
+                                                    <font key="NSOriginalFont" size="30" name="Arial-BoldMT"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="Drive">
+                                                <attributes>
+                                                    <font key="NSFont" size="30" name="PTSans-Regular"/>
+                                                    <font key="NSOriginalFont" size="30" name="PTSans-Regular"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="192.33000000000001" id="MW8-pk-mOr"/>
+                                    <constraint firstAttribute="height" constant="157" id="SlN-Qs-Lof"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="SND-7z-MPr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2Ee-hC-MaA" firstAttribute="centerX" secondItem="SPM-bR-YCW" secondAttribute="centerX" id="EEX-Qq-fLN"/>
+                            <constraint firstItem="2Ee-hC-MaA" firstAttribute="centerY" secondItem="SPM-bR-YCW" secondAttribute="centerY" id="sGW-Si-208"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Js0-Lo-zJj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1366.046511627907" y="86.909871244635198"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="IconSD" width="114" height="114"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

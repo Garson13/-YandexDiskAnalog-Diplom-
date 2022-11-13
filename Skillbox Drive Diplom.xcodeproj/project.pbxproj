@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E10B38828F86582005D9F2B /* PresentedShareVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E10B38728F86582005D9F2B /* PresentedShareVC.swift */; };
+		7E140E14291E7CA30019D1BA /* CancelPublicFilesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E140E13291E7CA30019D1BA /* CancelPublicFilesViewModel.swift */; };
+		7E2612B329216EB200019AD7 /* MainTabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2612B529216EB200019AD7 /* MainTabBar.storyboard */; };
+		7E2612C02921818600019AD7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E2612C22921818600019AD7 /* Localizable.strings */; };
+		7E3061562893428300697C26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3061552893428300697C26 /* AppDelegate.swift */; };
+		7E3061582893428300697C26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3061572893428300697C26 /* SceneDelegate.swift */; };
+		7E30615A2893428300697C26 /* ViewControllerLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3061592893428300697C26 /* ViewControllerLogin.swift */; };
+		7E30615D2893428300697C26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E30615B2893428300697C26 /* Main.storyboard */; };
+		7E3061602893428300697C26 /* Skillbox_Drive_Diplom.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E30615E2893428300697C26 /* Skillbox_Drive_Diplom.xcdatamodeld */; };
+		7E3061622893428400697C26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E3061612893428400697C26 /* Assets.xcassets */; };
+		7E3061652893428400697C26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3061632893428400697C26 /* LaunchScreen.storyboard */; };
+		7E306178289470D500697C26 /* ViewModelLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E306177289470D500697C26 /* ViewModelLogin.swift */; };
+		7E38A472291BF9F50048CAAC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E38A471291BF9F50048CAAC /* Extensions.swift */; };
+		7E4975DA291AB749001B1131 /* AllFilesDirVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4975D9291AB749001B1131 /* AllFilesDirVC.swift */; };
+		7E7868732914056B00ED3FDE /* PresentedDeleteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7868722914056B00ED3FDE /* PresentedDeleteViewModel.swift */; };
+		7E85C3DA2914607B001AC617 /* PresentedEditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E85C3D92914607B001AC617 /* PresentedEditViewModel.swift */; };
+		7EA3F4AB28DB782800006151 /* EnumFilesPreviewModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA3F4AA28DB782800006151 /* EnumFilesPreviewModeView.swift */; };
+		7EB725772916609B009B78F7 /* AllFilesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB725762916609B009B78F7 /* AllFilesViewModel.swift */; };
+		7EB7257B2916E5CE009B78F7 /* RecentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB7257A2916E5CE009B78F7 /* RecentVC.swift */; };
+		7EB7257D2916F267009B78F7 /* AllFilesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB7257C2916F267009B78F7 /* AllFilesModel.swift */; };
+		7EBB9C07291D770900C9B430 /* DetailPersonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBB9C06291D770900C9B430 /* DetailPersonVC.swift */; };
+		7EBB9C09291D771600C9B430 /* DetailPersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBB9C08291D771600C9B430 /* DetailPersonViewModel.swift */; };
+		7EBB9C0B291DA58900C9B430 /* DetailPersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBB9C0A291DA58900C9B430 /* DetailPersonCell.swift */; };
+		7EBB9C0D291E5BD100C9B430 /* CancelPublicFilesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBB9C0C291E5BD100C9B430 /* CancelPublicFilesVC.swift */; };
+		7ECA92C3291C2714004E0DC0 /* PersonTabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECA92C2291C2714004E0DC0 /* PersonTabBarViewModel.swift */; };
+		7ECA92C5291C2727004E0DC0 /* PersonTabBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECA92C4291C2727004E0DC0 /* PersonTabBarModel.swift */; };
+		7ECC85DF291EDFA6005C3516 /* PresentedShareViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECC85DE291EDFA6005C3516 /* PresentedShareViewModel.swift */; };
+		7ED3228428F24F4A00E159B4 /* ImageScrollVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED3228328F24F4A00E159B4 /* ImageScrollVIew.swift */; };
+		7ED5B59928CFF3470019E3A4 /* FilesPreviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED5B59828CFF3470019E3A4 /* FilesPreviewModel.swift */; };
+		7ED5B59B28CFF3520019E3A4 /* FilesPreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED5B59A28CFF3520019E3A4 /* FilesPreviewViewModel.swift */; };
+		7ED5B59D28CFF3600019E3A4 /* FilesPreviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED5B59C28CFF3600019E3A4 /* FilesPreviewVC.swift */; };
+		7EEE5349289D56F0007D5EFE /* AllFilesTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEE5348289D56F0007D5EFE /* AllFilesTabBarVC.swift */; };
+		7EEE534B289D5719007D5EFE /* RecentAndAllFilesTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEE534A289D5719007D5EFE /* RecentAndAllFilesTabBarVC.swift */; };
+		7EEE534D289D573D007D5EFE /* PersonTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEE534C289D573D007D5EFE /* PersonTabBarVC.swift */; };
+		7EEE534F28A15692007D5EFE /* RecentAndAllFilesTabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEE534E28A15692007D5EFE /* RecentAndAllFilesTabBarViewModel.swift */; };
+		7EEE535128A16353007D5EFE /* RecentAndAllFilesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEE535028A16353007D5EFE /* RecentAndAllFilesCell.swift */; };
+		7EEE535328A1A28E007D5EFE /* RecentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEE535228A1A28E007D5EFE /* RecentModel.swift */; };
+		7EEE536228A57980007D5EFE /* Recent+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEE536028A57980007D5EFE /* Recent+CoreDataClass.swift */; };
+		7EEE536328A57980007D5EFE /* Recent+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEE536128A57980007D5EFE /* Recent+CoreDataProperties.swift */; };
+		7EF9DF4428F86B3D002C1AF5 /* PresentedDeleteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF9DF4328F86B3D002C1AF5 /* PresentedDeleteVC.swift */; };
+		7EFCF1A4291AA32400ACF1CC /* AllFiles+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFCF1A2291AA32400ACF1CC /* AllFiles+CoreDataClass.swift */; };
+		7EFCF1A5291AA32400ACF1CC /* AllFiles+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFCF1A3291AA32400ACF1CC /* AllFiles+CoreDataProperties.swift */; };
+		7EFF7731291EF2110076D13F /* ExitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFF7730291EF2110076D13F /* ExitVC.swift */; };
+		E7FA53E0AD4CC1622B786BD0 /* Pods_Skillbox_Drive_Diplom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2927B1641FC4824335088AD /* Pods_Skillbox_Drive_Diplom.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4FD52DE8B45AF821D91ED0D8 /* Pods-Skillbox Drive Diplom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skillbox Drive Diplom.release.xcconfig"; path = "Target Support Files/Pods-Skillbox Drive Diplom/Pods-Skillbox Drive Diplom.release.xcconfig"; sourceTree = "<group>"; };
+		7E10B38728F86582005D9F2B /* PresentedShareVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentedShareVC.swift; sourceTree = "<group>"; };
+		7E140E13291E7CA30019D1BA /* CancelPublicFilesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelPublicFilesViewModel.swift; sourceTree = "<group>"; };
+		7E2612B629216EE400019AD7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ru; path = ru.lproj/MainTabBar.storyboard; sourceTree = "<group>"; };
+		7E2612B829216EFC00019AD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainTabBar.storyboard; sourceTree = "<group>"; };
+		7E2612BB2921700400019AD7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ru; path = ru.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E2612C12921818600019AD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7E2612C32921818C00019AD7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7E3061522893428300697C26 /* Skillbox Drive Diplom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Skillbox Drive Diplom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3061552893428300697C26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E3061572893428300697C26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7E3061592893428300697C26 /* ViewControllerLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerLogin.swift; sourceTree = "<group>"; };
+		7E30615C2893428300697C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E30615F2893428300697C26 /* Skillbox_Drive_Diplom.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Skillbox_Drive_Diplom.xcdatamodel; sourceTree = "<group>"; };
+		7E3061612893428400697C26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E3061642893428400697C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E3061662893428400697C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E306177289470D500697C26 /* ViewModelLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelLogin.swift; sourceTree = "<group>"; };
+		7E38A471291BF9F50048CAAC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7E4975D9291AB749001B1131 /* AllFilesDirVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllFilesDirVC.swift; sourceTree = "<group>"; };
+		7E7868722914056B00ED3FDE /* PresentedDeleteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentedDeleteViewModel.swift; sourceTree = "<group>"; };
+		7E85C3D92914607B001AC617 /* PresentedEditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentedEditViewModel.swift; sourceTree = "<group>"; };
+		7EA3F4AA28DB782800006151 /* EnumFilesPreviewModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumFilesPreviewModeView.swift; sourceTree = "<group>"; };
+		7EB725762916609B009B78F7 /* AllFilesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllFilesViewModel.swift; sourceTree = "<group>"; };
+		7EB7257A2916E5CE009B78F7 /* RecentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentVC.swift; sourceTree = "<group>"; };
+		7EB7257C2916F267009B78F7 /* AllFilesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllFilesModel.swift; sourceTree = "<group>"; };
+		7EBB9C06291D770900C9B430 /* DetailPersonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPersonVC.swift; sourceTree = "<group>"; };
+		7EBB9C08291D771600C9B430 /* DetailPersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPersonViewModel.swift; sourceTree = "<group>"; };
+		7EBB9C0A291DA58900C9B430 /* DetailPersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPersonCell.swift; sourceTree = "<group>"; };
+		7EBB9C0C291E5BD100C9B430 /* CancelPublicFilesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelPublicFilesVC.swift; sourceTree = "<group>"; };
+		7ECA92C2291C2714004E0DC0 /* PersonTabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTabBarViewModel.swift; sourceTree = "<group>"; };
+		7ECA92C4291C2727004E0DC0 /* PersonTabBarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTabBarModel.swift; sourceTree = "<group>"; };
+		7ECC85DE291EDFA6005C3516 /* PresentedShareViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentedShareViewModel.swift; sourceTree = "<group>"; };
+		7ED3228328F24F4A00E159B4 /* ImageScrollVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollVIew.swift; sourceTree = "<group>"; };
+		7ED5B59828CFF3470019E3A4 /* FilesPreviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesPreviewModel.swift; sourceTree = "<group>"; };
+		7ED5B59A28CFF3520019E3A4 /* FilesPreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesPreviewViewModel.swift; sourceTree = "<group>"; };
+		7ED5B59C28CFF3600019E3A4 /* FilesPreviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesPreviewVC.swift; sourceTree = "<group>"; };
+		7EEE5348289D56F0007D5EFE /* AllFilesTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllFilesTabBarVC.swift; sourceTree = "<group>"; };
+		7EEE534A289D5719007D5EFE /* RecentAndAllFilesTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentAndAllFilesTabBarVC.swift; sourceTree = "<group>"; };
+		7EEE534C289D573D007D5EFE /* PersonTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTabBarVC.swift; sourceTree = "<group>"; };
+		7EEE534E28A15692007D5EFE /* RecentAndAllFilesTabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentAndAllFilesTabBarViewModel.swift; sourceTree = "<group>"; };
+		7EEE535028A16353007D5EFE /* RecentAndAllFilesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentAndAllFilesCell.swift; sourceTree = "<group>"; };
+		7EEE535228A1A28E007D5EFE /* RecentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentModel.swift; sourceTree = "<group>"; };
+		7EEE536028A57980007D5EFE /* Recent+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Recent+CoreDataClass.swift"; path = "Skillbox Drive Diplom/CoreDataClasses/Recent+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		7EEE536128A57980007D5EFE /* Recent+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Recent+CoreDataProperties.swift"; path = "Skillbox Drive Diplom/CoreDataClasses/Recent+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		7EF9DF4328F86B3D002C1AF5 /* PresentedDeleteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentedDeleteVC.swift; sourceTree = "<group>"; };
+		7EFCF1A2291AA32400ACF1CC /* AllFiles+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AllFiles+CoreDataClass.swift"; path = "Skillbox Drive Diplom/CoreDataClasses/AllFiles+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		7EFCF1A3291AA32400ACF1CC /* AllFiles+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AllFiles+CoreDataProperties.swift"; path = "Skillbox Drive Diplom/CoreDataClasses/AllFiles+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		7EFF7730291EF2110076D13F /* ExitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitVC.swift; sourceTree = "<group>"; };
+		E2927B1641FC4824335088AD /* Pods_Skillbox_Drive_Diplom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skillbox_Drive_Diplom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF40756655AE36FB131E8DBF /* Pods-Skillbox Drive Diplom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skillbox Drive Diplom.debug.xcconfig"; path = "Target Support Files/Pods-Skillbox Drive Diplom/Pods-Skillbox Drive Diplom.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E30614F2893428300697C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7FA53E0AD4CC1622B786BD0 /* Pods_Skillbox_Drive_Diplom.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5712457DBED2212F48F7A9F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2927B1641FC4824335088AD /* Pods_Skillbox_Drive_Diplom.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E2612BC2921815500019AD7 /* CoreDataClasses */ = {
+			isa = PBXGroup;
+			children = (
+				7EFCF1A2291AA32400ACF1CC /* AllFiles+CoreDataClass.swift */,
+				7EFCF1A3291AA32400ACF1CC /* AllFiles+CoreDataProperties.swift */,
+				7EEE536028A57980007D5EFE /* Recent+CoreDataClass.swift */,
+				7EEE536128A57980007D5EFE /* Recent+CoreDataProperties.swift */,
+			);
+			path = CoreDataClasses;
+			sourceTree = "<group>";
+		};
+		7E2612BD2921816B00019AD7 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				7E2612C22921818600019AD7 /* Localizable.strings */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		7E3061492893428300697C26 = {
+			isa = PBXGroup;
+			children = (
+				7E3061542893428300697C26 /* Skillbox Drive Diplom */,
+				7E3061532893428300697C26 /* Products */,
+				C41B9F132E556809BF736C0F /* Pods */,
+				5712457DBED2212F48F7A9F3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7E3061532893428300697C26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E3061522893428300697C26 /* Skillbox Drive Diplom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E3061542893428300697C26 /* Skillbox Drive Diplom */ = {
+			isa = PBXGroup;
+			children = (
+				7E2612BD2921816B00019AD7 /* Localizable */,
+				7E2612BC2921815500019AD7 /* CoreDataClasses */,
+				7E38A470291BF9DC0048CAAC /* ExtensionsForUI */,
+				7E30616C2894303500697C26 /* AppDelegate */,
+				7E30616F2894409600697C26 /* LoginViewController */,
+				7E30616E2894407500697C26 /* TabBarController */,
+				7E30616D289430E100697C26 /* Storyboard */,
+				7E3061612893428400697C26 /* Assets.xcassets */,
+				7E3061662893428400697C26 /* Info.plist */,
+				7E30615E2893428300697C26 /* Skillbox_Drive_Diplom.xcdatamodeld */,
+			);
+			path = "Skillbox Drive Diplom";
+			sourceTree = "<group>";
+		};
+		7E30616C2894303500697C26 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7E3061552893428300697C26 /* AppDelegate.swift */,
+				7E3061572893428300697C26 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		7E30616D289430E100697C26 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7E30615B2893428300697C26 /* Main.storyboard */,
+				7E2612B529216EB200019AD7 /* MainTabBar.storyboard */,
+				7E3061632893428400697C26 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		7E30616E2894407500697C26 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				7E306170289440B700697C26 /* PersonTabBarVC */,
+				7E306171289440D800697C26 /* RecentAndAllFilesTabBarVC */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		7E30616F2894409600697C26 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7E306177289470D500697C26 /* ViewModelLogin.swift */,
+				7E3061592893428300697C26 /* ViewControllerLogin.swift */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		7E306170289440B700697C26 /* PersonTabBarVC */ = {
+			isa = PBXGroup;
+			children = (
+				7EBB9C05291D76F200C9B430 /* DetailPerson */,
+				7EBB9C04291D76D600C9B430 /* PersonTabBar */,
+			);
+			path = PersonTabBarVC;
+			sourceTree = "<group>";
+		};
+		7E306171289440D800697C26 /* RecentAndAllFilesTabBarVC */ = {
+			isa = PBXGroup;
+			children = (
+				7EEE534A289D5719007D5EFE /* RecentAndAllFilesTabBarVC.swift */,
+				7EEE535028A16353007D5EFE /* RecentAndAllFilesCell.swift */,
+				7ED5B59728CFF2E90019E3A4 /* FilesPreview */,
+				7E3061722894410500697C26 /* AllFilesTabBarVC */,
+				7ED5B59628CFF2D00019E3A4 /* RecentFiles */,
+			);
+			path = RecentAndAllFilesTabBarVC;
+			sourceTree = "<group>";
+		};
+		7E3061722894410500697C26 /* AllFilesTabBarVC */ = {
+			isa = PBXGroup;
+			children = (
+				7EEE5348289D56F0007D5EFE /* AllFilesTabBarVC.swift */,
+				7EB725762916609B009B78F7 /* AllFilesViewModel.swift */,
+				7EB7257C2916F267009B78F7 /* AllFilesModel.swift */,
+				7E4975D9291AB749001B1131 /* AllFilesDirVC.swift */,
+			);
+			path = AllFilesTabBarVC;
+			sourceTree = "<group>";
+		};
+		7E38A470291BF9DC0048CAAC /* ExtensionsForUI */ = {
+			isa = PBXGroup;
+			children = (
+				7E38A471291BF9F50048CAAC /* Extensions.swift */,
+			);
+			path = ExtensionsForUI;
+			sourceTree = "<group>";
+		};
+		7EBB9C04291D76D600C9B430 /* PersonTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				7EEE534C289D573D007D5EFE /* PersonTabBarVC.swift */,
+				7ECA92C2291C2714004E0DC0 /* PersonTabBarViewModel.swift */,
+				7ECA92C4291C2727004E0DC0 /* PersonTabBarModel.swift */,
+				7EFF7730291EF2110076D13F /* ExitVC.swift */,
+			);
+			path = PersonTabBar;
+			sourceTree = "<group>";
+		};
+		7EBB9C05291D76F200C9B430 /* DetailPerson */ = {
+			isa = PBXGroup;
+			children = (
+				7EBB9C06291D770900C9B430 /* DetailPersonVC.swift */,
+				7EBB9C08291D771600C9B430 /* DetailPersonViewModel.swift */,
+				7EBB9C0A291DA58900C9B430 /* DetailPersonCell.swift */,
+				7EBB9C0C291E5BD100C9B430 /* CancelPublicFilesVC.swift */,
+				7E140E13291E7CA30019D1BA /* CancelPublicFilesViewModel.swift */,
+			);
+			path = DetailPerson;
+			sourceTree = "<group>";
+		};
+		7ED5B59628CFF2D00019E3A4 /* RecentFiles */ = {
+			isa = PBXGroup;
+			children = (
+				7EB7257A2916E5CE009B78F7 /* RecentVC.swift */,
+				7EEE534E28A15692007D5EFE /* RecentAndAllFilesTabBarViewModel.swift */,
+				7EEE535228A1A28E007D5EFE /* RecentModel.swift */,
+			);
+			path = RecentFiles;
+			sourceTree = "<group>";
+		};
+		7ED5B59728CFF2E90019E3A4 /* FilesPreview */ = {
+			isa = PBXGroup;
+			children = (
+				7EF9DF4228F86AD8002C1AF5 /* viewControllers */,
+				7EF9DF4128F86AD2002C1AF5 /* viewModel */,
+				7EF9DF4028F86ACE002C1AF5 /* model */,
+			);
+			path = FilesPreview;
+			sourceTree = "<group>";
+		};
+		7EF9DF4028F86ACE002C1AF5 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				7EA3F4AA28DB782800006151 /* EnumFilesPreviewModeView.swift */,
+				7ED5B59828CFF3470019E3A4 /* FilesPreviewModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		7EF9DF4128F86AD2002C1AF5 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7ED5B59A28CFF3520019E3A4 /* FilesPreviewViewModel.swift */,
+				7ECC85DE291EDFA6005C3516 /* PresentedShareViewModel.swift */,
+				7E7868722914056B00ED3FDE /* PresentedDeleteViewModel.swift */,
+				7E85C3D92914607B001AC617 /* PresentedEditViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		7EF9DF4228F86AD8002C1AF5 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7ED5B59C28CFF3600019E3A4 /* FilesPreviewVC.swift */,
+				7ED3228328F24F4A00E159B4 /* ImageScrollVIew.swift */,
+				7E10B38728F86582005D9F2B /* PresentedShareVC.swift */,
+				7EF9DF4328F86B3D002C1AF5 /* PresentedDeleteVC.swift */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		C41B9F132E556809BF736C0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF40756655AE36FB131E8DBF /* Pods-Skillbox Drive Diplom.debug.xcconfig */,
+				4FD52DE8B45AF821D91ED0D8 /* Pods-Skillbox Drive Diplom.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E3061512893428300697C26 /* Skillbox Drive Diplom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E3061692893428400697C26 /* Build configuration list for PBXNativeTarget "Skillbox Drive Diplom" */;
+			buildPhases = (
+				0E911FFEE8053C693497DDD7 /* [CP] Check Pods Manifest.lock */,
+				7E30614E2893428300697C26 /* Sources */,
+				7E30614F2893428300697C26 /* Frameworks */,
+				7E3061502893428300697C26 /* Resources */,
+				7534F92E5BD6C0A059F67D82 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Skillbox Drive Diplom";
+			productName = "Skillbox Drive Diplom";
+			productReference = 7E3061522893428300697C26 /* Skillbox Drive Diplom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E30614A2893428300697C26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					7E3061512893428300697C26 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7E30614D2893428300697C26 /* Build configuration list for PBXProject "Skillbox Drive Diplom" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = 7E3061492893428300697C26;
+			productRefGroup = 7E3061532893428300697C26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E3061512893428300697C26 /* Skillbox Drive Diplom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E3061502893428300697C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E2612C02921818600019AD7 /* Localizable.strings in Resources */,
+				7E3061652893428400697C26 /* LaunchScreen.storyboard in Resources */,
+				7E2612B329216EB200019AD7 /* MainTabBar.storyboard in Resources */,
+				7E3061622893428400697C26 /* Assets.xcassets in Resources */,
+				7E30615D2893428300697C26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E911FFEE8053C693497DDD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Skillbox Drive Diplom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7534F92E5BD6C0A059F67D82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Skillbox Drive Diplom/Pods-Skillbox Drive Diplom-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Skillbox Drive Diplom/Pods-Skillbox Drive Diplom-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Skillbox Drive Diplom/Pods-Skillbox Drive Diplom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E30614E2893428300697C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EFCF1A5291AA32400ACF1CC /* AllFiles+CoreDataProperties.swift in Sources */,
+				7EA3F4AB28DB782800006151 /* EnumFilesPreviewModeView.swift in Sources */,
+				7EEE5349289D56F0007D5EFE /* AllFilesTabBarVC.swift in Sources */,
+				7E30615A2893428300697C26 /* ViewControllerLogin.swift in Sources */,
+				7EBB9C0D291E5BD100C9B430 /* CancelPublicFilesVC.swift in Sources */,
+				7EEE534B289D5719007D5EFE /* RecentAndAllFilesTabBarVC.swift in Sources */,
+				7E140E14291E7CA30019D1BA /* CancelPublicFilesViewModel.swift in Sources */,
+				7EBB9C0B291DA58900C9B430 /* DetailPersonCell.swift in Sources */,
+				7EB7257D2916F267009B78F7 /* AllFilesModel.swift in Sources */,
+				7E7868732914056B00ED3FDE /* PresentedDeleteViewModel.swift in Sources */,
+				7E38A472291BF9F50048CAAC /* Extensions.swift in Sources */,
+				7EEE534D289D573D007D5EFE /* PersonTabBarVC.swift in Sources */,
+				7ED5B59B28CFF3520019E3A4 /* FilesPreviewViewModel.swift in Sources */,
+				7E3061562893428300697C26 /* AppDelegate.swift in Sources */,
+				7ECA92C5291C2727004E0DC0 /* PersonTabBarModel.swift in Sources */,
+				7ED3228428F24F4A00E159B4 /* ImageScrollVIew.swift in Sources */,
+				7ECC85DF291EDFA6005C3516 /* PresentedShareViewModel.swift in Sources */,
+				7EF9DF4428F86B3D002C1AF5 /* PresentedDeleteVC.swift in Sources */,
+				7EFCF1A4291AA32400ACF1CC /* AllFiles+CoreDataClass.swift in Sources */,
+				7EEE535128A16353007D5EFE /* RecentAndAllFilesCell.swift in Sources */,
+				7E4975DA291AB749001B1131 /* AllFilesDirVC.swift in Sources */,
+				7E85C3DA2914607B001AC617 /* PresentedEditViewModel.swift in Sources */,
+				7EBB9C07291D770900C9B430 /* DetailPersonVC.swift in Sources */,
+				7ECA92C3291C2714004E0DC0 /* PersonTabBarViewModel.swift in Sources */,
+				7EEE536228A57980007D5EFE /* Recent+CoreDataClass.swift in Sources */,
+				7E3061582893428300697C26 /* SceneDelegate.swift in Sources */,
+				7EB7257B2916E5CE009B78F7 /* RecentVC.swift in Sources */,
+				7E306178289470D500697C26 /* ViewModelLogin.swift in Sources */,
+				7EBB9C09291D771600C9B430 /* DetailPersonViewModel.swift in Sources */,
+				7EEE534F28A15692007D5EFE /* RecentAndAllFilesTabBarViewModel.swift in Sources */,
+				7E10B38828F86582005D9F2B /* PresentedShareVC.swift in Sources */,
+				7E3061602893428300697C26 /* Skillbox_Drive_Diplom.xcdatamodeld in Sources */,
+				7EFF7731291EF2110076D13F /* ExitVC.swift in Sources */,
+				7EB725772916609B009B78F7 /* AllFilesViewModel.swift in Sources */,
+				7EEE535328A1A28E007D5EFE /* RecentModel.swift in Sources */,
+				7ED5B59D28CFF3600019E3A4 /* FilesPreviewVC.swift in Sources */,
+				7ED5B59928CFF3470019E3A4 /* FilesPreviewModel.swift in Sources */,
+				7EEE536328A57980007D5EFE /* Recent+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7E2612B529216EB200019AD7 /* MainTabBar.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E2612B629216EE400019AD7 /* ru */,
+				7E2612B829216EFC00019AD7 /* en */,
+			);
+			name = MainTabBar.storyboard;
+			sourceTree = "<group>";
+		};
+		7E2612C22921818600019AD7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E2612C12921818600019AD7 /* en */,
+				7E2612C32921818C00019AD7 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		7E30615B2893428300697C26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E30615C2893428300697C26 /* Base */,
+				7E2612BB2921700400019AD7 /* ru */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E3061632893428400697C26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E3061642893428400697C26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E3061672893428400697C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E3061682893428400697C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E30616A2893428400697C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF40756655AE36FB131E8DBF /* Pods-Skillbox Drive Diplom.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5TSMG99U6H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Skillbox Drive Diplom/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Simonyan-Garik.Skillbox-Drive-Diplom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E30616B2893428400697C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FD52DE8B45AF821D91ED0D8 /* Pods-Skillbox Drive Diplom.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5TSMG99U6H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Skillbox Drive Diplom/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Simonyan-Garik.Skillbox-Drive-Diplom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E30614D2893428300697C26 /* Build configuration list for PBXProject "Skillbox Drive Diplom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3061672893428400697C26 /* Debug */,
+				7E3061682893428400697C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E3061692893428400697C26 /* Build configuration list for PBXNativeTarget "Skillbox Drive Diplom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E30616A2893428400697C26 /* Debug */,
+				7E30616B2893428400697C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7E30615E2893428300697C26 /* Skillbox_Drive_Diplom.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7E30615F2893428300697C26 /* Skillbox_Drive_Diplom.xcdatamodel */,
+			);
+			currentVersion = 7E30615F2893428300697C26 /* Skillbox_Drive_Diplom.xcdatamodel */;
+			path = Skillbox_Drive_Diplom.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7E30614A2893428300697C26 /* Project object */;
+}
